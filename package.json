@@ -1,0 +1,56 @@
+{
+  "name": "devjobs",
+  "version": "1.0.0",
+  "description": "Portal de Trabajos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index",
+    "desarrollo": "concurrently \"npm run dev\" \"npm run watch\" ",
+    "start" : "node ./index.js",
+    "watch": "webpack --w --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lekanda/devJobs.git"
+  },
+  "author": "Andres Bernaola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lekanda/devJobs/issues"
+  },
+  "homepage": "https://github.com/Lekanda/devJobs#readme",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.2.0",
+    "http-errors": "^1.7.3",
+    "mongoose": "^5.9.6",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "shortid": "^2.2.15",
+    "slug": "^2.1.1",
+    "sweetalert2": "^9.10.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "handlebars": "^4.7.6",
+    "nodemon": "^2.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

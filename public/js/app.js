@@ -65,7 +65,7 @@ const limpiarAlertas = () =>{
             alertas.parentElement.removeChild(alertas);
             clearInterval(interval);
         }
-    }, 1500);
+    }, 5000);
 }
 
 // Eliminar Vacantes

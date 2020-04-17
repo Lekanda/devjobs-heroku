@@ -103,13 +103,20 @@ app.use((error,req,res)=> {
 
 
 // Dejar que Heroku asigne el puerto
-const host = '0.0.0.0';
-const port = process.env.PORT;
+const host = '0.0.0.0' || 'localhost';
+const port = process.env.PORT || process.env.PUERTO;
 
 
-
+/**********CONFIGURACION PARA HEROKU********/
 // Puerto de escucha
 app.listen(port, host, () => {
     console.log('El servidor esta funcionando....');
     
 });
+
+// app.listen(process.env.PUERTO);
+
+
+/**********CONFIGURACION PARA lOCAL********/
+
+// app.listen(5000);

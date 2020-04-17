@@ -19,7 +19,7 @@ exports.formularioNuevaVacante = (req,res) => {
 }
 
 // Metodo que agrega las vacantes nuevas
-exports.agregarVacante = async(req,res) => {
+exports.agregarVacante = async (req,res) => {
     // console.log(req.body.salario);
     const vacante = new Vacante(req.body);
     //Usuario Autor de Vacante
@@ -36,7 +36,7 @@ exports.agregarVacante = async(req,res) => {
 // Metodo para Mostrar una vacante
 exports.mostrarVacante = async(req,res,next) => {
    const vacante = await Vacante.findOne({url: req.params.url}).populate('autor').lean();
-    console.log(vacante);
+    // console.log(vacante);
     
    if (!vacante) return next();
 
@@ -63,7 +63,7 @@ exports.formEditarVacante = async (req,res,next) => {
 exports.editarVacante = async (req,res) => {
     const vacanteActualizada = req.body;
     vacanteActualizada.skills = req.body.skills.split(',');
-    console.log(vacanteActualizada);
+    // console.log(vacanteActualizada);
     const vacante = await Vacante.findOneAndUpdate({url: req.params.url}, vacanteActualizada, {
         new: true,// Trae el actualizado
         runValidators: true// Para que tome todo lo que hay en el modelo
@@ -205,7 +205,7 @@ exports.contactar = async (req,res, next)=> {
     // Almacenar la Vacante
     vacante.candidatos.push(nuevoCandidato);
     await vacante.save();
-    console.log(vacante);
+    // console.log(vacante);
     
 
     // Mensaje Flash y redireccion
@@ -217,8 +217,8 @@ exports.mostrarCandidatos = async (req,res,next) => {
     // console.log(req.params.id);
     const vacante = await Vacante.findById(req.params.id);
     // console.log(vacante);
-    console.log(vacante.autor);
-    console.log(req.user._id);
+    // console.log(vacante.autor);
+    // console.log(req.user._id);
 
     // console.log(typeof vacante.autor);
     // console.log(typeof req.user._id);

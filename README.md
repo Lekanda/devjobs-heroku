@@ -3,7 +3,12 @@
 ###### Autor: Andres Bernaola sigiendo curso de Udemy
 ##### Caracteristicas de la APP
    1. Web en la que se publicitan ofertas de trabajo
-   2.
+   2. Se puede crear una cuenta para publicar ofertas
+   3. No hace falta inscribirse para poder optar a las vacantes
+   4. Hecha con DBs Mongo y Mongoose
+   5. Hecha con Node, Handlebars, CSS y JavaScript
+
+
     
 
 <a href="#">

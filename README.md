@@ -1,6 +1,6 @@
 # DevJobs
 ## Repositorio con el código final del Proyecto DevJobs Para colgar vacantes de trabajo.
-###### Autor: Andres Bernaola sigiendo curso de Udemy
+###### Autor: ![Nire Logo](/imagenes/Tie Advanced.ico)Andres Bernaola sigiendo curso de Udemy
 ##### Caracteristicas de la APP
    1. Web en la que se publicitan ofertas de trabajo
    2. Se puede crear una cuenta para publicar ofertas

@@ -10,7 +10,7 @@
    5. Hecha con Node, Handlebars, CSS y JavaScript
       * item
       * item
-> Andres Bernaola
+> Autor => Andres Bernaola
 
     
 

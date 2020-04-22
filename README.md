@@ -8,7 +8,9 @@
    3. No hace falta inscribirse para poder optar a las vacantes
    4. Hecha con DBs Mongo y Mongoose
    5. Hecha con Node, Handlebars, CSS y JavaScript
-
+      * item
+      * item
+> Andres Bernaola
 
     
 

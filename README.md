@@ -1,7 +1,7 @@
 # DevJobs
 ## Repositorio con el código final del Proyecto DevJobs Para colgar vacantes de trabajo.:smile:
 ![alt text](https://github.com/Lekanda/devjobs-heroku/blob/master/imagenes/Tie%20Bomber.png)
-###### Autor: **Andres Bernaola** sigiendo curso de Udemy
+
 ##### Caracteristicas de la APP
    1. Web en la que se publicitan ofertas de trabajo
    2. Se puede crear una cuenta para publicar ofertas

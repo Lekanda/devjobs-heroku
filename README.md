@@ -10,8 +10,6 @@
    5. Hecha con Node, Handlebars, CSS y JavaScript
       * item
       * item
-      * item
-         * item
 > Autor => Andres Bernaola
 
 <a href="#">
